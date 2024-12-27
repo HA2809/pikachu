@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MusicManager : SaiSingleton<MusicManager>
+public class MusicManager : RiceSingleton<MusicManager>
 {
     private AudioSource audioSource;
     private float volume = .2f;

@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SoundManager : SaiSingleton<SoundManager>
+public class SoundManager : RiceSingleton<SoundManager>
 {
     public enum Sound
     {

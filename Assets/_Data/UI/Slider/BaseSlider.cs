@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public abstract class BaseSlider : SaiMonoBehaviour
+public abstract class BaseSlider : RiceMonoBehaviour
 {
     [Header("Base Slider")]
     [SerializeField] protected Slider slider;

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Rendering;
 
-public class BlockCtrl : SaiMonoBehaviour
+public class BlockCtrl : RiceMonoBehaviour
 {
     [Header("Block Ctrl")]
     public Transform model;

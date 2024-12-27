@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 
-public class UIEnterKonamiCode : SaiMonoBehaviour
+public class UIEnterKonamiCode : RiceMonoBehaviour
 {
     [SerializeField] protected GameObject background;
     [SerializeField] protected TextMeshProUGUI title;

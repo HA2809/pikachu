@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class UIFinishGame : SaiMonoBehaviour
+public class UIFinishGame : RiceMonoBehaviour
 {
     [SerializeField] private GameObject container;
     [SerializeField] private GameObject winFx;

@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class UIDebugToggle : SaiMonoBehaviour
+public class UIDebugToggle : RiceMonoBehaviour
 {
     [SerializeField] protected Transform debug;
 

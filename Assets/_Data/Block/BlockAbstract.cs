@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BlockAbstract : SaiMonoBehaviour
+public class BlockAbstract : RiceMonoBehaviour
 {
     [Header("Block Abstract")]
     public BlockCtrl ctrl;

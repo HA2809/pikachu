@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GridManagerCtrl : SaiMonoBehaviour
+public class GridManagerCtrl : RiceMonoBehaviour
 {
     [Header("Grid Manager Ctrl")]
     private static GridManagerCtrl instance;

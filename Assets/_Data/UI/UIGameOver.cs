@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class UIGameOver : SaiMonoBehaviour
+public class UIGameOver : RiceMonoBehaviour
 {
     [SerializeField] private GameObject gameOverUI;
 
@@ -19,6 +19,10 @@ public class UIGameOver : SaiMonoBehaviour
         if (GameManager.Instance != null)
         {
             GameManager.Instance.OnGameOver -= GameManager_OnGameOver;
+        }
+        else
+        {
+            Debug.LogWarning("GameManager instance is not available during OnDisable.");
         }
     }
 

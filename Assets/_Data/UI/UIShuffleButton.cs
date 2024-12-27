@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class UIShuffleButton : SaiMonoBehaviour
+public class UIShuffleButton : RiceMonoBehaviour
 {
     [SerializeField] protected Transform shuffleButton;
     [SerializeField] protected Button btnShuffle;

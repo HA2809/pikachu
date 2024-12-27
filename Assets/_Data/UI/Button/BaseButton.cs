@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public abstract class BaseButton : SaiMonoBehaviour
+public abstract class BaseButton : RiceMonoBehaviour
 {
     [Header("Base Button")]
     [SerializeField] protected Button button;

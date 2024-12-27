@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public abstract class GridAbstract : SaiMonoBehaviour
+public abstract class GridAbstract : RiceMonoBehaviour
 {
     [Header("Grid Abstract")]
     public GridManagerCtrl ctrl;

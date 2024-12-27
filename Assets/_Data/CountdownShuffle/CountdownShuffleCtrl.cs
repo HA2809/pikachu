@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class CountdownShuffleCtrl : SaiMonoBehaviour
+public class CountdownShuffleCtrl : RiceMonoBehaviour
 {
     private static CountdownShuffleCtrl instance;
     public static CountdownShuffleCtrl Instance => instance;

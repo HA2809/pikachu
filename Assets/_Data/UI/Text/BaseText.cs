@@ -1,7 +1,7 @@
 using TMPro;
 using UnityEngine;
 
-public abstract class BaseText : SaiMonoBehaviour
+public abstract class BaseText : RiceMonoBehaviour
 {
     [Header("Base Text")]
     [SerializeField] protected TextMeshProUGUI text;

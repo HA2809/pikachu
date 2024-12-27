@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class InputManager : SaiSingleton<InputManager>
+public class InputManager : RiceSingleton<InputManager>
 {
     public bool isDebug = false;
     public KonamiCodeChecker konamiCodeChecker {  get; private set; }

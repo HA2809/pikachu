@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-public abstract class AbstractPathfinding : SaiMonoBehaviour
+public abstract class AbstractPathfinding : RiceMonoBehaviour
 {
     protected List<Node> pathNodes = new List<Node>();
     public List<Node> PathNodes => pathNodes;

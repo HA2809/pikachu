@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
-public class NodeObj : SaiMonoBehaviour
+public class NodeObj : RiceMonoBehaviour
 {
     public TextMeshPro text;
     public Color textColor = Color.red;

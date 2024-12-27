@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class GameManager : SaiSingleton<GameManager>
+public class GameManager : RiceSingleton<GameManager>
 {
     private bool isWin = false;
     private bool isLoss = false;

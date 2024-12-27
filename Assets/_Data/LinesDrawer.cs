@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class LinesDrawer : SaiMonoBehaviour
+public class LinesDrawer : RiceMonoBehaviour
 {
     [SerializeField] protected LineRenderer lineRenderer;
     [SerializeField] protected float lineWidth = 0.1f;

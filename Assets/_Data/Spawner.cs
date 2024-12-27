@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public abstract class Spawner : SaiMonoBehaviour
+public abstract class Spawner : RiceMonoBehaviour
 {
     [Header("Spawner")]
     [SerializeField] protected Transform holder;
